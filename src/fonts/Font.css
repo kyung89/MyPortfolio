@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "ProtestGuerrilla";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./ProtestGuerrilla-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Kanit-Bold";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./Kanit-Bold.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  font-style: normal;
+  font-weight: 100;
+  src: url("./SpaceGrotesk-VariableFont_wght.ttf") format("woff");
+}
