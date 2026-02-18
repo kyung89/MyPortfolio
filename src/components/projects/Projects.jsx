@@ -30,63 +30,120 @@ export default function Projects() {
         Projects
       </div>
       <div className="text-red-700 font-bold text-xl mb-3">
-        [AI 활용 빅데이터 분석 풀스택웹서비스 SW 개발자 양성과정] 팀 프로젝트:
-        마이팜 (MyFarm)
+        1. CTR 프로세스 마이닝 분석 툴
+      </div>
+      <br></br>
+      <div className=" mb-3"></div>
+      <div className=" mb-3">직무 영역: 프론트엔드 개발</div>
+      <div className=" mb-3">수행 기간: 2020.03 ~ 2020.12</div>
+      <br></br>
+      <div className=" mb-3">■ 프로젝트 개요</div>
+      <br></br>
+      <div className=" mb-3">
+        업무 및 공정 프로세스 데이터를 분석·시각화하는 웹 기반 분석 시스템
+      </div>
+      <br></br>
+      <div className=" mb-3">■ 담당 업무</div>
+      <br></br>
+      <div className=" mb-3">
+        Vue.js, TypeScript 기반 프론트엔드 화면 설계 및 구현
+      </div>
+      <div className=" mb-3">분석 대상 지역 선택 기능 설계 및 개발</div>
+      <div className=" mb-3">데이터 기반 분석 결과 UI 구조 설계</div>
+      <br></br>
+      <div className=" mb-3">■ 주요 성과</div>
+      <br></br>
+      <div className=" mb-3">ECharts 기반 커스터마이징 바 차트 구현</div>
+      <div className=" mb-3">지역별 분석 결과 시각화 기능 개발</div>
+      <div className=" mb-3">
+        분석 툴 핵심 기능 안정화 및 사용자 편의성 개선
+      </div>
+      <br></br>
+      <div className=" mb-3">■ 기술 스택</div>
+      <br></br>
+      <div className=" mb-3">
+        Vue.js, TypeScript, JavaScript, ECharts, REST API, Git
+      </div>
+      <br></br>
+
+      <div className="text-red-700 font-bold text-xl mb-3">
+        2. IPR SaaS 프로세스 마이닝 분석 툴
+      </div>
+      <br></br>
+      <div className=" mb-3">직무 영역: 프론트엔드 개발</div>
+      <div className=" mb-3">수행 기간: 2021.01 ~ 2022.07</div>
+      <br></br>
+      <div className=" mb-3">■ 프로젝트 개요</div>
+      <br></br>
+      <div className=" mb-3">
+        프로세스 흐름 및 이벤트 로그 데이터를 분석·관리하는 SaaS 기반 분석
+        플랫폼
+      </div>
+      <br></br>
+      <div className=" mb-3">■ 담당 업무</div>
+      <br></br>
+      <div className=" mb-3">Vue.js, TypeScript 기반 프론트엔드 전반 개발</div>
+      <div className=" mb-3">Token 기반 프로세스 시각화 및 분석 화면 구현</div>
+      <div className=" mb-3">실시간 분석 상태 알림 시스템 개발</div>
+      <div className=" mb-3">사용자 인터랙션 중심 UI/UX 설계</div>
+      <br></br>
+      <div className=" mb-3">■ 주요 성과</div>
+      <br></br>
+      <div className=" mb-3">
+        Joint.js 기반 토큰 이동 그래프 및 재생·정지 기능 구현
       </div>
       <div className=" mb-3">
-        {`프론트엔드: `}
-        <span className="text-blue-800 underline">
-          <a href={"https://github.com/kyung89/frontened_proto_kyung"}>
-            {"https://github.com/kyung89/frontened_proto_kyung"}
-          </a>
-        </span>
+        분석 진행 상태(진행/완료/실패) 실시간 알림 기능 개발
       </div>
+      <div className=" mb-3">알림 클릭 시 결과 페이지 자동 이동 기능 구현</div>
+      <div className=" mb-3">ECharts 기반 Heat Map 시각화 페이지 제작</div>
+      <div className=" mb-3">프로세스 그래프 PDF 출력·다운로드 기능 개발</div>
+      <div className=" mb-3">Drag & Drop 기반 데이터 위치 편집 기능 구현</div>
+      <div className=" mb-3">Storybook 활용 컴포넌트 단위 테스트 환경 구축</div>
+      <br></br>
+      <div className=" mb-3">■ 기술 스택</div>
+      <br></br>
       <div className=" mb-3">
-        {`백엔드: `}
-        <span className="text-blue-800 underline">
-          <a href={"https://github.com/JinhyeokKo/Project_Farm"}>
-            {"https://github.com/JinhyeokKo/Project_Farm"}
-          </a>
-        </span>
+        Vue.js, TypeScript, JavaScript, ECharts, Joint.js, Storybook, REST API,
+        Git
       </div>
-      <div className="grid grid-col-1 gap-10">
-        {slides.map((slide) => (
-          <img
-            src={`/projects_basic/${slide}.PNG`}
-            alt={slide}
-            className="w-50"
-          />
-        ))}
+      <br></br>
+
+      <div className="text-red-700 font-bold text-xl mb-3">
+        3. AI 기반 포털 서비스 개발
       </div>
-      <div className="p-5 text-red-700 font-bold">
-        <div className="p-3">프로젝트를 진행하면서 아쉬운 점이 많았습니다.</div>
-        <div className="p-3">
-          1. 먼저 초기의 제 포지션이 프론트엔드 메인 & 데이터 분석 서브였는데
-          경진대회 시일이 촉박하여 다양한 포지션을 경험해 보지 못한 점이
-          아쉬웠습니다.
-        </div>
-        <div className="p-3">
-          2. 부득이하게 프로젝트를 진행하면서 설계를 진행하게 되어서 처음에
-          꼼꼼한 설계안을 작성한 후 시작했으면 더 좋았을 것이라 생각됩니다.
-        </div>
-        <div className="p-3">
-          3. 기한이 촉박한 만큼 기능의 우선순위를 정하고 핵심 기능 또는 시간이
-          많이 걸릴 부분을 먼저 진행했으면 좋았을 것 같습니다.
-        </div>
-        <div className="p-3">
-          4. 개인 역량도 중요하지만 협업이니 만큼 소통이 많이 중요하다는 것을
-          느꼈습니다. 공유한 중심 주제는 같아도 각자 생각한 의견이 달라 생각하는
-          것을 통일하기 위해 충분한 팀 회의가 필요함을 느꼈습니다.
-        </div>
-        <div className="p-3">
-          5. 목표한 만큼 만들진 못했지만 팀플을 하며 여러 가지로 배운 게 많은
-          점은 좋은 것 같습니다. 만들면서 아쉬움을 많이 느껴서 앞으로도
-          개인적으로 해당 프로젝트의 개선 버전을 틈틈이 작업해 볼 예정입니다.
-        </div>
-        <div className="p-3">
-          6. 프로그래밍을 하면서 논리적인 구조를 짜는 작업이 즐거웠던 것
-          같습니다.
-        </div>
+      <br></br>
+      <div className=" mb-3">직무 영역: 프론트엔드 개발</div>
+      <div className=" mb-3">수행 기간: 2024.12 ~ 2025.02 (2개월)</div>
+      <br></br>
+      <div className=" mb-3">■ 프로젝트 개요</div>
+      <br></br>
+      <div className=" mb-3">
+        AI 검색 및 에이전트 기반 정보 제공 포털 서비스
+      </div>
+      <br></br>
+      <div className=" mb-3">■ 담당 업무</div>
+      <br></br>
+      <div className=" mb-3">
+        EventSource 기반 SSE 스트리밍 응답 처리 기능 개발
+      </div>
+      <div className=" mb-3">AI 검색 결과 실시간 렌더링 UI 구현</div>
+      <div className=" mb-3">멀티모달 서비스 및 에이전트 기능 화면 개발</div>
+      <div className=" mb-3">SSE 기반 보고서 생성 알림 기능 구현</div>
+      <div className=" mb-3">백엔드 API 연동 및 데이터 흐름 구조 설계</div>
+      <div className=" mb-3">Tailwind CSS 기반 퍼블리싱 및 UI 스타일링</div>
+      <br></br>
+      <div className=" mb-3">■ 주요 성과</div>
+      <br></br>
+      <div className=" mb-3">AI 응답 스트리밍 적용으로 체감 대기 시간 단축</div>
+      <div className=" mb-3">
+        실시간 데이터 반영 UX 개선으로 사용자 만족도 향상
+      </div>
+      <br></br>
+      <div className=" mb-3">■ 기술 스택</div>
+      <br></br>
+      <div className=" mb-3">
+        React, JavaScript, SSE(EventSource), REST API, Tailwind CSS, Git
       </div>
     </div>
   );
