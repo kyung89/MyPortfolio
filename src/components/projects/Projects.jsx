@@ -1,26 +1,6 @@
 import React from "react";
 
 export default function Projects() {
-  const slides = [
-    "슬라이드2",
-    "슬라이드3",
-    "슬라이드4",
-    "슬라이드5",
-    "슬라이드6",
-    "슬라이드7",
-    "슬라이드8",
-    "슬라이드9",
-    "슬라이드10",
-    "슬라이드11",
-    "슬라이드12",
-    "슬라이드13",
-    "슬라이드14",
-    "슬라이드15",
-    "슬라이드16",
-    "슬라이드17",
-    "슬라이드18",
-  ];
-
   return (
     <div className="bg-white p-10 rounded-lg bg-opacity-85 w-[60rem] mx-auto mb-20">
       <div
