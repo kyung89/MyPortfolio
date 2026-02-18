@@ -35,9 +35,6 @@ export default function Main() {
       <section id="experience">
         <Experience />
       </section>
-      <section id="projects">
-        <Projects />
-      </section>
       <section id="certificate">
         <Certificate />
       </section>
